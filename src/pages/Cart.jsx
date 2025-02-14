@@ -12,10 +12,10 @@ export default function Cart() {
         cart.map((item, index) => (
           <div
             key={index}
-            className="border p-4 mb-2 flex justify-between items-center"
+            className="border p-4 mb-2 flex justify-between items-center rounded shadow-md hover:shadow-xl"
           >
-            <span className="flex items-center">
-              <img src={item.image} className=" w-14 h-14"/> -- {item.name} - {item.price}
+            <span className="flex items-center text-xl">
+              <img src={item.image} className=" w-14 h-14 rounded-lg"/> -- {item.name} - {item.price}
             </span>
             <button
               onClick={() => removeFromCart(index)}
