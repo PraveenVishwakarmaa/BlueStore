@@ -14,10 +14,10 @@ const App = () => {
       <div className="flex flex-col justify-between h-screen w-screen">
         <Header />
         <Routes>
-          <Route path="/BluStore/" element={<Home />} />
-          <Route path="/BluStore/productpage" element={<ProductPage />} />
-          <Route path="/BluStore/account" element={<Account />} />
-          <Route path="/BluStore/cart" element={<Cart />} />
+          <Route path="/BlueStore/" element={<Home />} />
+          <Route path="/BlueStore/productpage" element={<ProductPage />} />
+          <Route path="/BlueStore/account" element={<Account />} />
+          <Route path="/BlueStore/cart" element={<Cart />} />
         </Routes>
         <Footer />
       </div>
