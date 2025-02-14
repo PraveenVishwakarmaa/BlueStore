@@ -11,12 +11,12 @@ const Header = () => {
     <div className="py-7 px-10 text-black flex items-center justify-between">
       <a href=""><img src={logo} className=" h-10 w-22 rounded"/></a>
       <div className="flex gap-10 text-lg">
-        <Link to="/">Home</Link>
-        <Link to="/productpage">Product</Link>
-        <Link to="/">About</Link>
-        <Link to="/">Contact</Link>
-        <Link to="/account">Account</Link>
-        <Link to="/cart"><img src={cartLogo} className="inline h-7 w-7"/>{cart.length}</Link>
+        <Link to="/BluStore/">Home</Link>
+        <Link to="/BluStore/productpage">Product</Link>
+        <Link to="/BluStore/">About</Link>
+        <Link to="/BluStore/">Contact</Link>
+        <Link to="/BluStore/account">Account</Link>
+        <Link to="/BluStore/cart"><img src={cartLogo} className="inline h-7 w-7"/>{cart.length}</Link>
       </div>
     </div>
   );
