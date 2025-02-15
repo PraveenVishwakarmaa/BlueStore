@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex items-center justify-evenly py-20">
+      <div className="flex items-center justify-evenly py-20" style={{height:"627px"}}>
         <h1 className=" text-center">Air<br/>Jordans</h1>
         <img src={jordan} alt="" className="shoe h-2.5/3 w-1/3" />
         <div>
