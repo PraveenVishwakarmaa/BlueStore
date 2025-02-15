@@ -13,9 +13,9 @@ const Home = () => {
 
   return (
     <>
-      <div className="flex items-center justify-evenly py-20" style={{height:"627px"}}>
+      <div className="flex items-center justify-evenly py-20" >
         <h1 className=" text-center">Air<br/>Jordans</h1>
-        <img src={jordan} alt="" className="shoe h-2.5/3 w-1/3" />
+        <img src={jordan} alt="" className="shoe w-1/3" style={{height:"517px"}}/>
         <div>
           <h2 className="mt-2 text-white text-2xl px-7 py-2 border rounded">
             $ 149
